@@ -4,3 +4,5 @@ Program dijalankan dengan satu server dan beberapa client. Ketika salah satu cli
 ![img_2.png](screenshots/img_2.png)
 ![img_3.png](screenshots/img_3.png)
 ![img_1.png](screenshots/img_1.png)
+## 2.2 Modifying port
+Port harus diubah pada dua sisi, yaitu server dan client. Server menggunakan port untuk membuka koneksi websocket, sedangkan client menggunakan port yang sama untuk terhubung ke server. Jika hanya salah satu yang diubah, koneksi akan gagal karena alamat tujuan tidak sesuai.
